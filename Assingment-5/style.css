@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #5e5551;
+    background-image:url("./pic1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/* main div */
+
+.main {
+    max-width: 65%;
+    margin: 20px auto;
+}
+
+/* first div */
+
+.f1div {
+    background-color: white;
+    padding-left: 10px;
+}
+
+.f1ulist {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+}
+
+.f1list {
+    margin-right: 25px;
+    font-size: 30px;
+    font-family: 'MonteCarlo', cursive;
+}
+
+/* second div */
+.f2div {
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+img {
+    height: 300px;
+    width: 300px;
+
+}
+
+.idiv {
+    text-align: center;
+    padding: 60px 80px;
+    margin-left: 120px;
+}
+
+.btn {
+    margin-top: 10px;
+    padding: 10px;
+    border: 3px solid greenyellow;
+    color: limegreen;
+    background-color: white;
+}
+
+/* third div */
+
+.f3div {
+    margin-top: 40px;
+    background-color: white;
+    padding: 30px;
+}
+
+/* forth div */
+.f4div {
+    background-color: white;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 30px;
+}
+
+.f4list {
+    list-style-type: none;
+    border: 3px solid grey;
+    margin-bottom: 5px;
+    padding-left: 10px;
+}
+
+
+/* fifith div */
+
+.f5div {
+    background-color: white;
+    padding: 30px;
+}
+
+.f5h {
+    font-family: 'MonteCarlo', cursive;
+}
+
+.f5list {
+    list-style-type: none;
+    border: 3px solid grey;
+    margin-bottom: 5px;
+    padding-left: 10px;
+
+}
+.p1{
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.p2{
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+.ul1{
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+.ul2{
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+/* Extra */
+.all:hover {
+    box-shadow: 0px 0px 10px #2ecc20;
+}
+
+@media screen and (max-width:530px) {
+    .idiv{
+        margin-left:30px;
+    }
+    
+}
